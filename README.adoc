@@ -1,0 +1,35 @@
+
+:java_version: current
+:cucumber_version: current
+:toc:
+:project_id: goose
+:icons: font
+:source-highlighter: prettify
+
+= Welcome to goose !
+
+Description of the project: Goose is a game where two or more players move pieces around a track by rolling a die. The aim of the game is to reach square number sixty-three before any of the other players and avoid obstacles.
+
+The project is based on Java 14 and Cucumber to manage tests.
+
+[[initial]]
+== Set up Java App
+
+after downloading from git:
+
+- build the project with Maven:
+
+[subs="attributes"]
+----
+./cd goose
+./mvn spring-boot:run
+----
+
+[[initial]]
+== Set up Cucumber Test
+
+[subs="attributes"]
+----
+./mvn test
+----
+
