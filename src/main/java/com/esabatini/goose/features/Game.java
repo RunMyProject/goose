@@ -92,7 +92,7 @@ public class Game {
 		*/
 	}
 	
-	private List<String> splitLine(String line) {
+	public List<String> splitLine(String line) {
 		return Stream.of(line.split(Setup.SEP_INSTR))
 			.map(token -> new String(token))
 		    .collect(Collectors.toList());
