@@ -17,7 +17,7 @@
 	<properties>
 		<java.version>14</java.version>
         <cucumber.version>6.2.2</cucumber.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
